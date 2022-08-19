@@ -14,11 +14,9 @@ using namespace std;
 int main() {
     int n;  cin >> n;
 
-    if(n == 2 || n == 3) {
+    if(n == 2 || n == 3 || n == 4) {
         cout << "NO SOLUTION\n";
     }
-    else if(n == 4)
-        cout << "2 4 1 3\n";
     else {
         int num = 1;
 
